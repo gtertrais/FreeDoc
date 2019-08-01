@@ -4,6 +4,7 @@ Doctor.destroy_all
 Patient.destroy_all
 Appointment.destroy_all
 JoinTableSpecialtyDoctor.destroy_all
+City.destroy_all
 
 #create specialties
 specialty1 = Specialty.create(name: "generaliste")
